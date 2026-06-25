@@ -32,3 +32,11 @@ python run.py --basePath Datasets/151507 --dataset_name 151507 --n_clusters 7
 ```
 
 Outputs are written to `<basePath>_NLGATST/`, including clustering labels, spatial figures, UMAP/PAGA plots, and the final AnnData object.
+
+## Test data
+
+A small example dataset or instructions for downloading the test dataset are provided in the Datasets directory. Users can run the example using:
+
+python run.py --basePath Datasets/starmap --dataset_name starmap --n_clusters 7
+
+The input data should contain the spatial expression matrix and spatial coordinate information. The outputs include clustering labels, spatial domain plots, UMAP/PAGA plots, and the final AnnData object.
